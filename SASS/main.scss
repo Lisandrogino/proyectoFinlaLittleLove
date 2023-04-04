@@ -1,0 +1,21 @@
+$mainColor: #FAE1DC;
+$bodyColor:#D9D9DD;
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Playfair Display', serif;
+   
+}
+
+body{
+    background-color: $bodyColor;
+}
+
+@import "header";
+@import "footer";
+@import "home";
+@import "client";
+@import "empresa";
+@import "responsive";
