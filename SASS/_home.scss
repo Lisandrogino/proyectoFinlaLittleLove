@@ -2,12 +2,14 @@
     
     background-color: $bodyColor;
 
+
+
 main{
 
     .slider-conteiner-conteiner{
         margin: 20px; 
         position: relative; 
-        z-index: -100;
+        z-index: -1;
     }
     .card-container{
         margin: 10px 30px;

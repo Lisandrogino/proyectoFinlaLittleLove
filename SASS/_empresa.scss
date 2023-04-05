@@ -1,8 +1,7 @@
 .empresa{
 
     .empresa__conteiner{
-    position: relative;
-    z-index: -100;
+    z-index: -1;
 
         .empresa__title{
             text-align: center;
@@ -22,6 +21,8 @@
             margin-top: 30px;
             margin-bottom: 20px;
             flex-direction: column;
+            
+            
 
             .empresa__card--card1{
                 margin-bottom: 20px;

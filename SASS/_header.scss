@@ -25,6 +25,7 @@
                grid-auto-flow: column;
                gap: 3em;
                list-style-type: none; 
+               z-index: 1;
                
                .nav-icons{
                    text-decoration: none;
