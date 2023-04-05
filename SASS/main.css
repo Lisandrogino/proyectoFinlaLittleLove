@@ -285,47 +285,20 @@ main .productosDestacados-conteiner-conteiner #outstanding .card-conteiner-conte
     transition: clip-path 1s ease-in-out;
     transition: clip-path 1s ease-in-out, -webkit-clip-path 1s ease-in-out;
   }
-  #body-container #footer {
-    background-color: #FAE1DC;
-    display: flex;
-    flex-direction: column;
-  }
   #body-container #footer .footer-conteiner-conteiner {
     display: flex;
     flex-direction: column;
   }
   #body-container #footer .footer-conteiner-conteiner .footer-conteiner {
+    display: flex;
+    flex-direction: column;
     align-items: center;
   }
-  #body-container #footer .footer-conteiner-conteiner .footer-conteiner .footer-contact {
-    margin-bottom: 10px;
-    text-align: center;
-  }
-  #body-container #footer .footer-conteiner-conteiner .footer-conteiner .footer-contact-text {
-    font-family: "Dancing Script", cursive;
-    font-weight: 700;
-  }
-  #body-container #footer .footer-conteiner-conteiner .footer-conteiner .footer-social {
-    margin: 15px 10px;
-    align-items: center;
-  }
-  #body-container #footer .footer-conteiner-conteiner .footer-conteiner .footer-social .footer-icon {
-    border: 1px solid black;
-    border-radius: 50%;
-    width: 50px;
-    height: auto;
-    margin: 5px;
-  }
-  #body-container #footer .footer-conteiner-conteiner .footer-conteiner .footer-social .footer__icon--facebook:hover {
-    transform: scale(1.2);
-  }
-  #body-container #footer .footer-conteiner-conteiner .footer-conteiner .footer-social .footer__icon--instagram:hover {
-    transform: scale(1.2);
-  }
-  #body-container #footer .footer-image .footer-img {
+  #body-container #footer .footer-image,
+#body-container #footer .footer-img {
     display: none;
   }
-  #body-container #footer .footer-copyright {
+  #body-container .footer-copyright {
     display: flex;
     justify-content: center;
   }
