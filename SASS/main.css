@@ -24,7 +24,7 @@ body {
 #body-container #hero .nav-container .logo img {
   width: 40%;
 }
-#body-container #hero .nav-container label, #body-container #hero .nav-container .nav-input {
+#body-container #hero .nav-container .nav-lavel, #body-container #hero .nav-container .nav-input {
   display: none;
 }
 #body-container #hero .nav-container #nav-bar ul {
@@ -98,6 +98,11 @@ body {
   justify-content: center;
 }
 
+main .slider-conteiner-conteiner {
+  margin: 20px;
+  position: relative;
+  z-index: -100;
+}
 main .card-container {
   margin: 10px 30px;
 }
@@ -251,15 +256,19 @@ main .productosDestacados-conteiner-conteiner #outstanding .card-conteiner-conte
 }
 
 @media (max-width: 768px) {
-  #hero .nav-lavel {
+  #body-container {
+    /*--------------FOOTER---------------*/
+  }
+  #body-container #hero .nav-container .nav-lavel,
+#body-container #hero .nav-container .nav-imput {
     display: block;
     cursor: pointer;
   }
-  #hero .nav-input:checked + #nav-bar ul {
+  #body-container #hero .nav-container .nav-input:checked + #nav-bar ul {
     -webkit-clip-path: circle(100% at center);
             clip-path: circle(100% at center);
   }
-  #hero #nav-bar ul {
+  #body-container #hero .nav-container #nav-bar ul {
     position: fixed;
     top: 80px;
     bottom: 0;
@@ -276,48 +285,47 @@ main .productosDestacados-conteiner-conteiner #outstanding .card-conteiner-conte
     transition: clip-path 1s ease-in-out;
     transition: clip-path 1s ease-in-out, -webkit-clip-path 1s ease-in-out;
   }
-  /*--------------FOOTER---------------*/
-  #footer {
+  #body-container #footer {
     background-color: #FAE1DC;
     display: flex;
     flex-direction: column;
   }
-  #footer .footer-conteiner-conteiner {
+  #body-container #footer .footer-conteiner-conteiner {
     display: flex;
     flex-direction: column;
   }
-  #footer .footer-conteiner-conteiner .footer-conteiner {
+  #body-container #footer .footer-conteiner-conteiner .footer-conteiner {
     align-items: center;
   }
-  #footer .footer-conteiner-conteiner .footer-conteiner .footer-contact {
+  #body-container #footer .footer-conteiner-conteiner .footer-conteiner .footer-contact {
     margin-bottom: 10px;
     text-align: center;
   }
-  #footer .footer-conteiner-conteiner .footer-conteiner .footer-contact-text {
+  #body-container #footer .footer-conteiner-conteiner .footer-conteiner .footer-contact-text {
     font-family: "Dancing Script", cursive;
     font-weight: 700;
   }
-  #footer .footer-conteiner-conteiner .footer-conteiner .footer-social {
+  #body-container #footer .footer-conteiner-conteiner .footer-conteiner .footer-social {
     margin: 15px 10px;
     align-items: center;
   }
-  #footer .footer-conteiner-conteiner .footer-conteiner .footer-social .footer-icon {
+  #body-container #footer .footer-conteiner-conteiner .footer-conteiner .footer-social .footer-icon {
     border: 1px solid black;
     border-radius: 50%;
     width: 50px;
     height: auto;
     margin: 5px;
   }
-  #footer .footer-conteiner-conteiner .footer-conteiner .footer-social .footer__icon--facebook:hover {
+  #body-container #footer .footer-conteiner-conteiner .footer-conteiner .footer-social .footer__icon--facebook:hover {
     transform: scale(1.2);
   }
-  #footer .footer-conteiner-conteiner .footer-conteiner .footer-social .footer__icon--instagram:hover {
+  #body-container #footer .footer-conteiner-conteiner .footer-conteiner .footer-social .footer__icon--instagram:hover {
     transform: scale(1.2);
   }
-  #footer .footer-image .footer-img {
+  #body-container #footer .footer-image .footer-img {
     display: none;
   }
-  #footer .footer-copyright {
+  #body-container #footer .footer-copyright {
     display: flex;
     justify-content: center;
   }

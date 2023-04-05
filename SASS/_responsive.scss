@@ -1,8 +1,12 @@
 @media (max-width: 768px) {
+    #body-container{
+
     
     #hero{
+        .nav-container{
 
-        .nav-lavel{
+        .nav-lavel,
+        .nav-imput{
 
             display: block;
             cursor: pointer;
@@ -26,6 +30,7 @@
             clip-path: circle(0 at center );
             transition: clip-path 1s ease-in-out;
         }
+    }
     }
 
     /*--------------FOOTER---------------*/
@@ -89,4 +94,5 @@
             justify-content: center; 
         }
     }
+}
 }
