@@ -255,6 +255,11 @@ main .productosDestacados-conteiner-conteiner #outstanding .card-conteiner-conte
   z-index: -100;
 }
 
+#body-container main .product-conteiner {
+  position: relative;
+  z-index: -100;
+}
+
 @media (max-width: 768px) {
   #body-container {
     /*--------------FOOTER---------------*/
