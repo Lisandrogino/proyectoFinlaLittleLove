@@ -98,15 +98,18 @@ body {
   justify-content: center;
 }
 
-main .slider-conteiner-conteiner {
+#body-container {
+  background-color: #D9D9DD;
+}
+#body-container main .slider-conteiner-conteiner {
   margin: 20px;
   position: relative;
   z-index: -100;
 }
-main .card-container {
+#body-container main .card-container {
   margin: 10px 30px;
 }
-main .card-container #card {
+#body-container main .card-container #card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -116,44 +119,44 @@ main .card-container #card {
   gap: 12px;
   transition: gap 200ms;
 }
-main .card-container #card:hover {
+#body-container main .card-container #card:hover {
   gap: 24px;
 }
-main .card-container #card img {
+#body-container main .card-container #card img {
   width: 150px;
   border-radius: 50%;
 }
-main .card-container #card .romiPresentation {
+#body-container main .card-container #card .romiPresentation {
   text-align: center;
   font-family: "Dancing Script", cursive;
   font-weight: 700;
 }
-main .productosDestacados-conteiner-conteiner #outstanding .titule {
+#body-container main .productosDestacados-conteiner-conteiner #outstanding .titule {
   margin: 20px;
   margin-bottom: 30px;
   text-align: center;
 }
-main .productosDestacados-conteiner-conteiner #outstanding .card-conteiner-conteiner .card-conteiner {
+#body-container main .productosDestacados-conteiner-conteiner #outstanding .card-conteiner-conteiner .card-conteiner {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
-main .productosDestacados-conteiner-conteiner #outstanding .card-conteiner-conteiner .card-conteiner .card-product {
+#body-container main .productosDestacados-conteiner-conteiner #outstanding .card-conteiner-conteiner .card-conteiner .card-product {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr;
   justify-items: center;
   align-items: center;
 }
-main .productosDestacados-conteiner-conteiner #outstanding .card-conteiner-conteiner .card-conteiner .card-product .card-product-img {
+#body-container main .productosDestacados-conteiner-conteiner #outstanding .card-conteiner-conteiner .card-conteiner .card-product .card-product-img {
   display: grid;
   grid-row: 1fr;
   grid-column: 1fr;
   justify-items: center;
   align-items: center;
 }
-main .productosDestacados-conteiner-conteiner #outstanding .card-conteiner-conteiner .card-conteiner .card-product .card-product-img .card-img {
+#body-container main .productosDestacados-conteiner-conteiner #outstanding .card-conteiner-conteiner .card-conteiner .card-product .card-product-img .card-img {
   width: 30%;
   height: auto;
   border-radius: 50%;
@@ -161,7 +164,7 @@ main .productosDestacados-conteiner-conteiner #outstanding .card-conteiner-conte
   justify-items: center;
   align-items: center;
 }
-main .productosDestacados-conteiner-conteiner #outstanding .card-conteiner-conteiner .card-conteiner .card-product .card-product-content {
+#body-container main .productosDestacados-conteiner-conteiner #outstanding .card-conteiner-conteiner .card-conteiner .card-product .card-product-content {
   text-align: center;
 }
 
