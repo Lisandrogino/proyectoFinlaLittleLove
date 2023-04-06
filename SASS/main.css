@@ -258,6 +258,8 @@ body {
 
 @media (max-width: 768px) {
   #body-container {
+    /*--------------HOME-----------------*/
+    /*--------------CLIENTES-------------*/
     /*--------------FOOTER---------------*/
   }
   #body-container #hero .nav-container .nav-lavel,
@@ -285,6 +287,17 @@ body {
     transition: -webkit-clip-path 1s ease-in-out;
     transition: clip-path 1s ease-in-out;
     transition: clip-path 1s ease-in-out, -webkit-clip-path 1s ease-in-out;
+  }
+  #body-container .productosDestacados-conteiner-conteiner #outstanding .card-conteiner-conteiner .card-conteiner {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  #body-container .productosDestacados-conteiner-conteiner #outstanding .card-conteiner-conteiner .card-conteiner .card-product .card-product-content .card-text {
+    margin: 60px;
+  }
+  #body-container .gallery {
+    grid-template-columns: 1fr;
   }
   #body-container #footer .footer-conteiner-conteiner {
     display: flex;
