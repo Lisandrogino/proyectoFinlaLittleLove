@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -113,26 +112,26 @@ body {
   margin: 20px;
 }
 #body-container main .slider-container-container .slider-container {
-  background-image: url(../assetsnav/bebéDurmiendo.jpg);
+  background-image: url(../assetsnav/portadaHome.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 #body-container main .slider-container-container .slider-container .slider__banner .main__title {
   font-family: "Playfair Display", serif;
   text-align: center;
   margin-top: 50px;
-  color: #fff;
+  color: #01161e;
 }
 #body-container main .slider-container-container .slider-container .slider__banner .secondary__title {
   font-family: "Dancing Script", cursive;
   text-align: center;
   margin-top: 50px;
-  color: #fff;
+  color: #01161e;
   font-size: 50px;
 }
 #body-container main .card-container {
@@ -363,8 +362,43 @@ body {
   position: relative;
 }
 
-#body-container main .product-conteiner {
+#body-container main .product-container {
   z-index: -1;
+}
+#body-container main .product-container .banner__container {
+  margin: 25px;
+}
+#body-container main .product-container .banner__container .banner {
+  background-image: url(../assetsnav/portadaProductos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  border-radius: 5px;
+}
+#body-container main .product-container .banner__container .banner__title {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  margin-top: 30px;
+  color: #01161e;
+}
+#body-container main .product-container .banner__container .banner__subtitle {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  margin-top: 10px;
+  color: #01161e;
+}
+#body-container main .product-container .banner__container .banner__text {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  margin-top: 325px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #01161e;
+  font-size: 20px;
 }
 
 @media (max-width: 768px) {

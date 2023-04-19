@@ -11,13 +11,13 @@ main{
        
         
             .slider-container{
-                background-image: url(../assetsnav/bebéDurmiendo.jpg);
+                background-image: url(../assetsnav/portadaHome.jpg);
                 background-repeat: no-repeat;
                 background-size: cover;
                 height: 600px;  
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
+                justify-content:space-between;
                 align-items: center;
                 
                 .slider__banner{
@@ -27,14 +27,14 @@ main{
                         font-family: $fontmain;
                         text-align: center; 
                         margin-top: 50px; 
-                        color: #fff;        
+                        color: #01161e;        
                 }
 
                     .secondary__title{
                         font-family: $fontsecondary;
                         text-align: center;
                         margin-top: 50px;
-                        color: #fff;
+                        color: #01161e;
                         font-size: 50px;
                     }
                    
