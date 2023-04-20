@@ -97,9 +97,16 @@
         }
     /*---------------PRODUCTOS-----------*/
 
-        
-                    .banner__text{
-                        display: none;
+        .product-container{
+           .banner__container{
+            .banner{
+                .banner__text{
+                    display: none;
+                }
+            }
+           }
+        }
+                   
        
 
     /*--------------CLIENTES-------------*/ 
@@ -220,4 +227,3 @@
 }
     }
     }
-}
