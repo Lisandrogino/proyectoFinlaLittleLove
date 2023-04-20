@@ -95,8 +95,15 @@
                 }
             }
         }
-    
+    /*---------------PRODUCTOS-----------*/
+
+        
+                    .banner__text{
+                        display: none;
+       
+
     /*--------------CLIENTES-------------*/ 
+
      
     .gallery{
         grid-template-columns: 1fr;
@@ -213,3 +220,4 @@
 }
     }
     }
+}
