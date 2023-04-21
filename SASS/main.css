@@ -120,6 +120,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  border-radius: 5px;
 }
 #body-container main .slider-container-container .slider-container .slider__banner .main__title {
   font-family: "Playfair Display", serif;
@@ -560,6 +561,19 @@ body {
   }
 }
 @media (max-width: 1200px) {
+  #body-container main .product-container .banner__container .banner .banner__text {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  #body-container main .slider-container-container .slider-container {
+    background-position: center;
+    height: 500px;
+  }
+  #body-container main .product-container .banner__container .banner {
+    background-position: center;
+    height: 500px;
+  }
   #body-container main .product-container .banner__container .banner .banner__text {
     display: none;
   }

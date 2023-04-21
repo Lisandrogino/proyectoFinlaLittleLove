@@ -248,3 +248,30 @@
             }
         }
     }
+
+    @media (max-width: 576px) {
+        #body-container{
+            main{
+
+                .slider-container-container{
+                    
+                    .slider-container{
+                        background-position: center;
+                        height: 500px;
+                    }
+                }
+
+                .product-container{
+                    .banner__container{
+                     .banner{
+                        background-position: center;
+                        height: 500px;
+                         .banner__text{
+                             display: none;
+                         }
+                     }
+                    }
+                 }
+            }
+        }
+    }
