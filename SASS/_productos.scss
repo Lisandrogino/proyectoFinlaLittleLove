@@ -46,5 +46,26 @@
 
             }
         }
+
+       .catalogue__container{
+
+        .manta__text{
+            font-family: $fontsecondary;
+        }
+            
+        .img__principal{
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        img{
+            width: 50%;
+            height: auto;
+        }
+        img:hover{
+            border: solid $bodyColor;
+        }
+       } 
     }
 }}

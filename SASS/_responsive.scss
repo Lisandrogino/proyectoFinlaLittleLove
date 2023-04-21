@@ -97,15 +97,7 @@
         }
     /*---------------PRODUCTOS-----------*/
 
-        .product-container{
-           .banner__container{
-            .banner{
-                .banner__text{
-                    display: none;
-                }
-            }
-           }
-        }
+       
                    
        
 
@@ -157,6 +149,17 @@
                 
     }
 }
+
+.product-container{
+    .banner__container{
+     .banner{
+         .banner__text{
+             display: none;
+         }
+     }
+    }
+ }
+
 }
 
     #footer{
@@ -226,4 +229,22 @@
     }
 }
     }
+    }
+
+    @media (max-width: 1200px) {
+        #body-container{
+            main{
+
+                .product-container{
+                    .banner__container{
+                     .banner{
+                        
+                         .banner__text{
+                             display: none;
+                         }
+                     }
+                    }
+                 }
+            }
+        }
     }
