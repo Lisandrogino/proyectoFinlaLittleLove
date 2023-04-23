@@ -279,21 +279,57 @@ body {
   transform: rotateY(-180deg);
 }
 
-main .card__grid .title {
-  text-align: center;
-  margin: 20px;
+main .banner__container {
+  margin: 25px;
 }
-main .card__grid .title-text {
-  font-family: "Dancing Script", cursive;
-  font-size: 30px;
-  font-weight: 700;
-  text-align: center;
-  margin: 20px;
+main .banner__container .banner {
+  background-image: url(../assetsnav/articlebebedurmiendo-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  border-radius: 5px;
 }
-main .card__grid .card__flex .card__flip .card__flip__inner .card__flip__back .card__flip__text {
+main .banner__container .banner__title {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  margin-top: 30px;
+  color: #01161e;
+}
+main .banner__container .banner__text {
   font-family: "Dancing Script", cursive;
-  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #01161e;
   font-size: 20px;
+}
+main .news .article {
+  display: flex;
+  align-items: center;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  margin: 5% 20%;
+}
+main .news .article .article__title {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+main .news .article .article__paragraph {
+  text-align: justify;
+  margin-top: 10px;
+}
+main .news .article .article__img {
+  display: flex;
+  width: 90%;
+  height: auto;
+  align-items: center;
+  margin: 30px;
 }
 
 .empresa .empresa__conteiner .empresa__title {
@@ -418,7 +454,6 @@ main .card__grid .card__flex .card__flip .card__flip__inner .card__flip__back .c
   }
   #body-container main .productosDestacados-conteiner-conteiner {
     /*---------------PRODUCTOS-----------*/
-    /*--------------CLIENTES-------------*/
     /*--------------FOOTER---------------*/
   }
   #body-container main .productosDestacados-conteiner-conteiner #outstanding .card-conteiner-conteiner .card-conteiner {
@@ -453,9 +488,6 @@ main .card__grid .card__flex .card__flip .card__flip__inner .card__flip__back .c
   #body-container main .productosDestacados-conteiner-conteiner #outstanding .card-conteiner-conteiner .card-conteiner .card-product .card-product-img .card-product-content .card-text {
     margin: 60px;
     text-align: center;
-  }
-  #body-container main .productosDestacados-conteiner-conteiner .gallery {
-    grid-template-columns: 1fr;
   }
   #body-container main .productosDestacados-conteiner-conteiner #footer .footer-conteiner-conteiner {
     display: flex;
@@ -541,6 +573,13 @@ main .card__grid .card__flex .card__flip .card__flip__inner .card__flip__back .c
     height: 500px;
   }
   #body-container main .product-container .banner__container .banner .banner__text {
+    display: none;
+  }
+  #body-container main .banner__container .banner {
+    background-position: center;
+    height: 500px;
+  }
+  #body-container main .banner__container .banner .banner__text {
     display: none;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -101,12 +101,10 @@
                    
        
 
-    /*--------------CLIENTES-------------*/ 
+   
 
      
-    .gallery{
-        grid-template-columns: 1fr;
-    }
+   
     
     /*--------------FOOTER---------------*/
     
@@ -272,6 +270,17 @@
                      }
                     }
                  }
+            
+                 .banner__container{
+                    .banner{
+                       background-position: center;
+                       height: 500px;
+                       .banner__text{
+                        display: none;
+                    }
+                    }
+                   }
+
             }
         }
     }
