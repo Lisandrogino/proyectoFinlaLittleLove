@@ -279,55 +279,21 @@ body {
   transform: rotateY(-180deg);
 }
 
-.main .title {
+main .card__grid .title {
   text-align: center;
   margin: 20px;
 }
-.main .title-text {
+main .card__grid .title-text {
   font-family: "Dancing Script", cursive;
+  font-size: 30px;
   font-weight: 700;
   text-align: center;
   margin: 20px;
 }
-.main .gallery {
-  padding-top: 20px;
-  padding-bottom: 10px;
-  margin: 20px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: auto;
-  justify-items: center;
-  gap: 50px;
-}
-.main .gallery .gallery__picture {
-  display: grid;
-  justify-items: center;
-  align-items: center;
-  background-color: #fff;
-  border: 10px solid #fff;
-  border-bottom: 60px solid #fff;
-  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.7);
-  border-radius: 8px;
-}
-.main .gallery .gallery__picture:hover {
-  transform: scale(1.1) rotate(5deg);
-  transition: 0.7s;
-}
-.main .gallery .gallery__picture img {
-  width: 60%;
-  height: auto;
-}
-.main .gallery .galery__picture--p2:hover {
-  transform: scale(1.1) rotate(-5deg);
-  transition: 0.7s;
-}
-.main .gallery .galery__picture--p5:hover {
-  transform: scale(1.1) rotate(-5deg);
-  transition: 0.7s;
-}
-.main .gallery .galery__picture--p8:hover {
-  transform: scale(1.1) rotate(-5deg);
-  transition: 0.7s;
+main .card__grid .card__flex .card__flip .card__flip__inner .card__flip__back .card__flip__text {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .empresa .empresa__conteiner .empresa__title {
